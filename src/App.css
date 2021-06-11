@@ -1,0 +1,177 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*Basic Spread*/ /*Influenced from tutorial by deved here https://www.youtube.com/watch?v=Ttf3CEsEwMQ&t=812s*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+
+}
+
+/*dashboard and setup*/
+h1 {
+  margin:5;
+  padding:0;
+  font-weight:700px;
+ 
+}
+h2,p{
+  opacity:0.8;
+  font-weight:400px;
+  font-size:1.4rem;
+}
+h4 {
+  opacity:0.8;
+  font-weight:3px;
+  
+}
+
+.classes.container{
+  background-color: #EAF2F0;
+}
+
+body{
+ height:100vh;
+ width:100%;
+  font-family:"Poppins", sans-serif;
+  margin:0;
+  padding:0;
+
+}
+
+
+
+
+.link{
+  display:flex;
+  margin:2rem 0rem;
+  padding:1rem 5rem;
+  align-items:center;
+}
+
+.link-text {
+  padding: 0rem 2rem;
+  display:none;
+}
+.dashboard:hover {
+width:16rem;
+}
+.dashboard:hover .link-text {
+  display:block;
+}
+
+.time-sets{
+  display:grid;
+  grid-template-columns:50px 200px 50px;
+  justify-items:center;
+  align-items:center;
+}
+
+Form {
+  display:grid;
+  grid-template-columns:300px 100px 75px;
+  align-content: space-around;
+  justify-items:left;
+  align-items:left;
+}
+
+Form.select {
+  min-width: 160px;
+  padding: 12px 16px;
+}
+
+/* input section*/
+input {
+  
+  position: 'relative';
+ 
+  border: '1px solid #ced4da';
+ 
+  padding: '10px 26px 10px 12px';
+ 
+}
+.enter{
+  flex:2;
+  margin:5rem;
+  
+  display:flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  
+}
+.form{
+  
+  display:flex;
+  justify-content:center;
+  align-items:center;
+ flex:2;
+  line-height: normal;
+ 
+}
+.logo{
+  letter-spacing:0.2ch;
+}
+.dual-container{
+  display:grid;
+  grid-template-columns: 1 1rem;
+  width: 500px;
+  justify-content: flex-end;
+  align-content: center;
+  
+}
+grid{
+  align-content: center;
+}
+ul {
+  list-style-type: none;
+}
+.completed{
+text-decoration:line-through;
+opacity:0.5;
+}
+form input,form button{
+padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 15px;
+  border:none;
+  background:white;
+}
+
