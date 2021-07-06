@@ -1,5 +1,8 @@
 # studbud
 How to setup
+
+
+cd studbud
 1. npm install
 2. npm start
 
