@@ -10,7 +10,6 @@
 //Referenced lourenci's demo.29.10.2020. https://github.com/lourenci/react-kanban#-shape-of-a-board
 //Sign Up sheet demo
 //Chad Murobayashi.(12/06/21).Create a Signup Page with React and Material-UI.https://levelup.gitconnected.com/create-a-signup-page-with-react-and-material-ui-9b203d18cf3f
-import logo from './logo.svg';
 import './App.css';
 import React,{useState,useEffect} from 'react';
 import PropTypes from 'prop-types';
